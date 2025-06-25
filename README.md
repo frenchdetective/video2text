@@ -1,5 +1,7 @@
 # Video2Text
+<p align="center">
 ![Video2Text](./logo.jpg)
+</p>
 
 ### Overview
 
