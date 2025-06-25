@@ -1,49 +1,46 @@
 # Video2Text
 
-## Présentation
+## Overview
 
-**Video2Text** est un outil Python permettant d’extraire l’audio d’une vidéo (locale ou YouTube), de le segmenter, puis de le transcrire en texte à l’aide du modèle Whisper de OpenAI. Le résultat est enregistré dans un fichier Markdown.
+**Video2Text** is a Python tool designed to extract audio from a video file (local or YouTube), segment the audio, and transcribe it to text using OpenAI's Whisper model. The result is saved in a Markdown file.
 
 ---
 
-## Dépendances
+## Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
 
----
-
-## Installation & Exemples d’utilisation
-
+# 1. Clone the repository
 ```bash
-# 1. Cloner le dépôt
-git clone https://github.com/votre-utilisateur/Video2Text.git
+git clone https://github.com/your-username/Video2Text.git
 cd Video2Text
-
-# 2. Créer et activer un environnement virtuel
+```
+# 2. Create and activate a virtual environment
+```bash
 python3 -m venv venv
-source venv/bin/activate  # sous macOS/Linux
-venv\Scripts\activate     # sous Windows
-
-# 3. Mettre à jour pip et installer les dépendances Python
+source venv/bin/activate  # on macOS/Linux
+venv\Scripts\activate     # on Windows
+```
+# 4. Upgrade pip and install Python dependencies
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
-
-# 4. Installer FFmpeg et yt-dlp (si non déjà présents)
-#    - Sous Ubuntu/Debian :
-sudo apt update && sudo apt install ffmpeg
-pip install yt-dlp
-
-# 5. Exemples d’utilisation :
-#    a) Transcription d’une vidéo YouTube
+```
+# 6. Usage examples:
+#    a) Transcribe a YouTube video
+```bash
 python video2text.py https://www.youtube.com/watch?v=XXXXXXXXXXX
-
-#    b) Transcription d’une vidéo locale (.mp4 ou .mkv)
-#       Placez votre fichier video.mp4 dans le répertoire, puis :
+```
+#    b) Transcribe a local video (.mp4 or .mkv)
+#       Place your video.mp4 file in the directory, then run:
+```bash
 python video2text.py
-
-#    c) Transcription d’un fichier audio existant (.wav)
-#       Placez audio.wav dans le répertoire, puis :
+```
+#    c) Transcribe an existing audio file (.wav)
+#       Place audio.wav in the directory, then run:
+```bash
 python video2text.py
+```
