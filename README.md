@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/Video2Text.git
+git clone https://github.com/frenchdetective/Video2Text.git
 cd Video2Text
 ```
 ### 2. Create and activate a virtual environment
@@ -28,6 +28,13 @@ venv\Scripts\activate     # on Windows
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+### 5. Download the OpenAI Whisper model on Hugging Face
+
+```bash
+https://huggingface.co/openai/whisper-large-v3/blob/main/model.safetensors
+```
+
 ### 6. Usage examples:
 ####    a) Transcribe a YouTube video
 ```bash
