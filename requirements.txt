@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+openai-whisper
+setuptools-rust
+ffmpeg
+yt-dlp
+transformers
