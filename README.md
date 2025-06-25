@@ -1,4 +1,5 @@
 # Video2Text
+![Video2Text](./logo.jpg)
 
 ### Overview
 
